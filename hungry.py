@@ -3,3 +3,7 @@ if hungry=='yes':
     print('eat')
 else:
     print('sleep')
+    if hungry == 'yes':
+        print('eat')
+    else:
+        print('sleep')
